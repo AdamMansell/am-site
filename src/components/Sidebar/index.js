@@ -1,4 +1,5 @@
 import React from 'react'
+import { CloseIcon, Icon, SidebarContainer } from './SidebarElements'
 
 const Sidebar = () => {
     return (
