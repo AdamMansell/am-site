@@ -5,14 +5,12 @@ import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md'
 export const HomeContainer = styled.div`
  background: #0c0c0c;
  display: flex;
- justify-contet: center;
+ justify-content: center;
  align-items: center;
  padding: 0 30px;
  height: 800px;
  position: relative;
  z-index: 1;
-
- /* Add :before styles */
 `;
 
 export const HomeBg = styled.div`
@@ -48,6 +46,7 @@ export const HomeH1 = styled.h1`
  color: #fff;
  font-size: 48px;
  text-align: center;
+ font-family: 'Caveat', cursive;
 
  @media screen and (max-width: 768px) {
      font-size: 40px;
