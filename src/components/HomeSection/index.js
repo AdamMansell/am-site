@@ -19,7 +19,7 @@ const HomeSection = () => {
             <HomeContent>
                 <HomeH1>I'm Adam Mansell</HomeH1>
                 <HomeP>
-                    A Full Stack Web Developer looking to broaden a Career in Creation
+                    A Full Stack Web Developer converting ideas and concepts into their own tangible realities
                 </HomeP>
                 <HomeBtnWrapper>
                     <Button
