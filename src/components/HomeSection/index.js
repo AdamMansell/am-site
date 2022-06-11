@@ -23,7 +23,7 @@ const HomeSection = () => {
                 </HomeP>
                 <HomeBtnWrapper>
                     <Button
-                        to='signup'
+                        to='about'
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary='true'

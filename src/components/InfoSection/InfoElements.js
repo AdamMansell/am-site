@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
  color: #fff;
- background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+ background: ${({lightBg}) => (lightBg ? '#041E2E' : '#010606')};
 
  @media screen and (max-width: 768px) {
      padding: 100px 0;
@@ -47,6 +47,7 @@ export const Column2= styled.div`
 
 export const TextWrapper = styled.div`
  max-width: 540px;
+ margin-left: 50px;
  padding-top: 0;
  padding-bottom:60px;
 `;
