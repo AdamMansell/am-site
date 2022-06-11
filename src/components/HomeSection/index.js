@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button } from '../ButtonElement'
+import { Button } from '../ButtonElements'
 import Video from '../../videos/Ocean-home.mp4'
 import { ArrowForward, ArrowRight, HomeBg, HomeBtnWrapper, HomeContainer, HomeContent, HomeH1, HomeP, VideoBg } from './HomeElements'
 
