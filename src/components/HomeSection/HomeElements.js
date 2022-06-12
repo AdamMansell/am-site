@@ -44,7 +44,7 @@ export const HomeContent = styled.div`
 
 export const HomeH1 = styled.h1`
  color: #fff;
- font-size: 48px;
+ font-size: 90px;
  text-align: center;
  font-family: 'Caveat', cursive;
 

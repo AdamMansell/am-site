@@ -19,7 +19,7 @@ const HomeSection = () => {
             <HomeContent>
                 <HomeH1>I'm Adam Mansell</HomeH1>
                 <HomeP>
-                    A Full Stack Web Developer converting ideas and concepts into their own tangible realities
+                    A Full Stack Web Developer converting concepts into their own tangible realities
                 </HomeP>
                 <HomeBtnWrapper>
                     <Button
@@ -28,7 +28,7 @@ const HomeSection = () => {
                         onMouseLeave={onHover}
                         primary='true'
                         dark='true'>
-                        Dive In! {hover ? <ArrowForward /> : <ArrowRight />}
+                        Dive In {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </HomeBtnWrapper>
             </HomeContent>
