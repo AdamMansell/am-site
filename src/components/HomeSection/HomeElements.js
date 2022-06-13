@@ -49,11 +49,11 @@ export const HomeH1 = styled.h1`
  font-family: 'Caveat', cursive;
 
  @media screen and (max-width: 768px) {
-     font-size: 40px;
+     font-size: 60px;
  }
 
  @media screen and (max-width: 480px) {
-     font-size: 32px;
+     font-size: 44px;
  }
 `;
 

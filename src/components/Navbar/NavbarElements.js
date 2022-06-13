@@ -14,7 +14,7 @@ export const Nav = styled.nav`
  top: 0;
  z-index: 10;
 
- @media screen and (max-width: 960px) {
+@media screen and (max-width: 2000px) {
     transition: 0.8s all ease;
  }
 `;
@@ -26,7 +26,7 @@ export const NavbarContainer = styled.nav`
  height: 80px;
  z-index: 1;
  width: 100%;
-//  padding: 0 24px;
+ padding: 0 24px;
  max-width: 1100px;
 `;
 
@@ -79,13 +79,13 @@ export const NavLinks = styled(LinkScroll)`
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 135%;
+  height: 100%;
   cursor: pointer;
   font-weight: bold;
   font-size: 21px;
 
   &.active {
-      border-bottom: 3px solid #01bf71;
+      border-bottom: 3px solid #62a2d6;
   }
  `;
 

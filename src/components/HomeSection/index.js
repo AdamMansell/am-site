@@ -24,8 +24,13 @@ const HomeSection = () => {
                 <HomeBtnWrapper>
                     <Button
                         to='about'
+                        smooth={true}
+                        duration={500}
+                        spy={true}
+                        exact='true'
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
+                        offset={-80}
                         primary='true'
                         dark='true'>
                         Dive In {hover ? <ArrowForward /> : <ArrowRight />}
