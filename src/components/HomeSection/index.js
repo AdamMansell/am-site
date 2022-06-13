@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Button } from '../ButtonElements'
-import Video from '../../videos/Ocean-home.mp4'
-import { ArrowForward, ArrowRight, HomeBg, HomeBtnWrapper, HomeContainer, HomeContent, HomeH1, HomeP, VideoBg } from './HomeElements'
+// import Video from '../../videos/Ocean-home.mp4'
+import  surf  from '../../images/surf-home.png'
+import { ArrowForward, ArrowRight, HomeBg, HomeBtnWrapper, HomeContainer, HomeContent, HomeH1, HomeP, ImageBg, VideoBg } from './HomeElements'
 
 const HomeSection = () => {
 
@@ -14,7 +15,8 @@ const HomeSection = () => {
     return (
         <HomeContainer id='home'>
             <HomeBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
+                <ImageBg src={surf} />
             </HomeBg>
             <HomeContent>
                 <HomeH1>I'm Adam Mansell</HomeH1>
