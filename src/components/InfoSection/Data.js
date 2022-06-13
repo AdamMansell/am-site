@@ -10,7 +10,8 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'About',
     headline: 'My Story',
-    description: "I grew up in California as an Australian-American, spending my time either running or flying drones. I had a love for two things - Running, and Technology (embarisingly inspired by Tony Stark... yes, Iron Man). I quickly developed a burning desire to be at the forefront of technology, and what better way to start - than to code. ",
+    description: 
+    "I grew up in California as an Australian-American, spending my time either running or flying drones. I had a love for two things - Running, and Technology (embarisingly inspired by Tony Stark... yes, Iron Man). I quickly developed a burning desire to be at the forefront of technology, and what better way to start - than to code. ",
     buttonLabel: 'Get started',
     imgStart: false,
     img: svg3,
