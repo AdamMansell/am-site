@@ -52,12 +52,12 @@ const Navbar = ({ toggle }) => {
                                 >Services</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="signup">Sign Up</NavLinks>
+                                <NavLinks to="signup">Contact</NavLinks>
                             </NavItem>
                         </NavMenu>
-                        <NavBtn>
+                        {/* <NavBtn>
                             <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                        </NavBtn>
+                        </NavBtn> */}
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>
