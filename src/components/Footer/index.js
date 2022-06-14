@@ -1,7 +1,9 @@
 import React from 'react'
-import { FooterContainer, FooterLink, FooterLinkItems, FooterLinksContainer, FooterLinksWrapper, FooterLinkTitle, FooterWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
+import { Image, FooterContainer, FooterLink, FooterLinkItems, FooterLinksContainer, FooterLinksWrapper, FooterLinkTitle, FooterWrap, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 import {FaTwitter, FaLinkedin, FaYoutube} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
+import  logo  from '../../images/AM-Logo.png'
+
 
 const Footer = () => {
 
@@ -56,7 +58,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            AM
+                        <Image src={logo}/>
                         </SocialLogo>
                         <WebsiteRights>Adam Mansell © {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
                         <SocialIcons>

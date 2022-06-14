@@ -19,6 +19,13 @@ export const Nav = styled.nav`
  }
 `;
 
+export const Image = styled.img`
+ width: 100%;
+ height: 60px;
+ object-fit: cover;
+ object-position: 50% 50%;
+`;
+
 
 export const NavbarContainer = styled.nav`
  display: flex;
@@ -76,9 +83,9 @@ export const NavItem = styled.li`
 export const NavLinks = styled(LinkScroll)`
   color: #fff;
   display: flex;
-  align-items: center;
+  align-items: end;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 1rem 0.5rem;
   height: 100%;
   cursor: pointer;
   font-weight: bold;

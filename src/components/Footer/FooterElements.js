@@ -6,6 +6,13 @@ export const FooterContainer = styled.div`
  background-color: #101522;
 `;
 
+export const Image = styled.img`
+ width: 100%;
+ height:45px;
+ object-fit: cover;
+ object-position: 50% 50%;
+`;
+
 export const FooterWrap = styled.div`
  padding: 4px 24px 24px 24px;
  display: flex;
