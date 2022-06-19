@@ -2,6 +2,7 @@ import styled from "styled-components";
 import  svg1  from '../../images/svg-1.svg'
 import  svg2  from '../../images/svg-2.svg'
 import  svg3  from '../../images/svg-3.svg'
+import  svg4  from '../../images/svg-4.svg'
 
 export const homeObjOne = {
     id: 'about',
@@ -15,41 +16,58 @@ export const homeObjOne = {
     buttonLabel: 'Get started',
     imgStart: false,
     img: svg3,
-    alt: 'Desk',
+    alt: 'Campfire',
     dark: true,
     primary: true,
     darkText: false
 };
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'skills',
     lightBg: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Discover',
-    headline: 'Travel',
+    topLine: 'Skills',
+    headline: 'My Favorites',
     description: "I work full stack with a focus on front end. My passion for coding derives from a desire to fully capture a thought or a dream - bringing it to life. What's your idea? Let's build it.",
     buttonLabel: 'Get started',
     imgStart: true,
-    img: svg2,
-    alt: 'Desk',
+    img: svg4,
+    alt: 'Program',
     dark: true,
     primary: true,
     darkText: false
 };
 
 export const homeObjThree = {
-    id: 'services',
+    id: 'work',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Services',
-    headline: 'My Work',
-    description: "I work full stack with a focus on front end. My passion for coding derives from a desire to fully capture a thought or a dream - bringing it to life. What's your idea? Let's build it.",
+    topLine: 'Work',
+    headline: 'Snö',
+    description: "Snö, My latest project, was designed to bridge a gap between nature and technology. The concept was to provide snowboarders & skiers with the mountains info. Whether that be parking lot capacity left, snowfall in the last 24 hours, or ski lift wait times - Snö would allow for the info to be accessed from any device, whenever desired. It's time to say goodbye to snow day problems, and hello to Snö.",
     buttonLabel: 'Get started',
     imgStart: false,
     img: svg1,
     alt: 'Desk',
+    dark: true,
+    primary: true,
+    darkText: false
+};
+
+export const homeObjFour = {
+    id: 'contact',
+    lightBg: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Contact',
+    headline: "Let's Connect",
+    description: "I work full stack with a focus on front end. My passion for coding derives from a desire to fully capture a thought or a dream - bringing it to life. What's your idea? Let's build it.",
+    buttonLabel: 'Get started',
+    imgStart: true,
+    img: svg2,
+    alt: 'Map',
     dark: true,
     primary: true,
     darkText: false
